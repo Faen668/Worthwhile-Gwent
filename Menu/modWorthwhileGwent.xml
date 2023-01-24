@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserConfig>
+	<Group id="WWG_GenericNPCSettings" displayName="Mods.wwg_name.wwg_menu_generic">
+		<PresetsArray>
+			<!-- PRESETS GO HERE -->
+			<Preset id="0" displayName="wwg_low">
+				<Entry varId="wwg_Toggle_Enabled1" 	value="true"/>
+				<Entry varId="wwg_Gold_Value" 		value="20.0"/>
+				<Entry varId="wwg_Expe_Value" 		value="60.0"/>
+				<Entry varId="wwg_Skpo_Value" 		value="0.0"/>
+			</Preset>
+			<Preset id="1" displayName="wwg_med">
+				<Entry varId="wwg_Toggle_Enabled1" 	value="true"/>
+				<Entry varId="wwg_Gold_Value" 		value="250.0"/>
+				<Entry varId="wwg_Expe_Value" 		value="120.0"/>
+				<Entry varId="wwg_Skpo_Value" 		value="1.0"/>
+			</Preset>
+			<Preset id="2" displayName="wwg_high">
+				<Entry varId="wwg_Toggle_Enabled1" 	value="true"/>
+				<Entry varId="wwg_Gold_Value" 		value="500.0"/>
+				<Entry varId="wwg_Expe_Value" 		value="240.0"/>
+				<Entry varId="wwg_Skpo_Value" 		value="2.0"/>
+			</Preset>
+			<Preset id="3" displayName="wwg_stup">
+				<Entry varId="wwg_Toggle_Enabled1" 	value="true"/>
+				<Entry varId="wwg_Gold_Value" 		value="1000.0"/>
+				<Entry varId="wwg_Expe_Value" 		value="500.0"/>
+				<Entry varId="wwg_Skpo_Value" 		value="3.0"/>
+			</Preset>
+		</PresetsArray>
+		
+		<VisibleVars>
+			<!-- Generic NPC's -->
+			<Var id="wwg_Toggle_Enabled1" 	displayName="wwg_enab_dn" 	displayType="TOGGLE"/>
+			
+			<Var id="Separator" 			displayName="" 				displayType="SUBTLE_SEPARATOR"/>
+			<Var id="wwg_Gold_Value" 		displayName="wwg_gold_dn" 	displayType="SLIDER;1;1000;999"/>
+			<Var id="wwg_Expe_Value" 		displayName="wwg_expe_dn" 	displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_Skpo_Value" 		displayName="wwg_skpo_dn" 	displayType="SLIDER;0;5;5"/>
+		</VisibleVars>
+	</Group>	
+	<Group id="WWG_QuestNPCSettings" displayName="Mods.wwg_name.wwg_menu_quests.wwg_menu_questsettings">
+		<PresetsArray>
+			<!-- PRESETS GO HERE -->
+			<Preset id="0" displayName="wwg_low">
+				<Entry varId="wwg_Toggle_Enabled2" 	value="true"/>
+				<Entry varId="wwg_slider_GlobalG" 	value="20.0"/>
+				<Entry varId="wwg_slider_GlobalE" 	value="60.0"/>
+				<Entry varId="wwg_slider_GlobalS" 	value="0.0"/>
+			</Preset>
+			<Preset id="1" displayName="wwg_med">
+				<Entry varId="wwg_Toggle_Enabled2" 	value="true"/>
+				<Entry varId="wwg_slider_GlobalG" 	value="250.0"/>
+				<Entry varId="wwg_slider_GlobalE" 	value="120.0"/>
+				<Entry varId="wwg_slider_GlobalS" 	value="1.0"/>
+			</Preset>
+			<Preset id="2" displayName="wwg_high">
+				<Entry varId="wwg_Toggle_Enabled2" 	value="true"/>
+				<Entry varId="wwg_slider_GlobalG" 	value="500.0"/>
+				<Entry varId="wwg_slider_GlobalE" 	value="240.0"/>
+				<Entry varId="wwg_slider_GlobalS" 	value="2.0"/>
+			</Preset>
+			<Preset id="3" displayName="wwg_stup">
+				<Entry varId="wwg_Toggle_Enabled2" 	value="true"/>
+				<Entry varId="wwg_slider_GlobalG" 	value="1000.0"/>
+				<Entry varId="wwg_slider_GlobalE" 	value="500.0"/>
+				<Entry varId="wwg_slider_GlobalS" 	value="3.0"/>
+			</Preset>
+		</PresetsArray>
+		
+		<VisibleVars>
+			<!-- General Settings -->
+			<Var id="wwg_Toggle_Enabled2" 		displayName="wwg_toggle_enabled_dn" 		displayType="TOGGLE"/>
+			
+			<Var id="Separator" 				displayName="" 								displayType="SUBTLE_SEPARATOR"/>
+			<Var id="wwg_slider_GlobalG" 		displayName="wwg_slider_globalg_dn"			displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_slider_GlobalE" 		displayName="wwg_slider_globale_dn"			displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_slider_GlobalS" 		displayName="wwg_slider_globals_dn"			displayType="SLIDER;0;5;5"/>
+		</VisibleVars>
+	</Group>
+	<Group id="WWG_BCP" displayName="Mods.wwg_name.wwg_menu_quests.wwg_menu_individual.wwg_menu_base.wwg_menu_bcp">
+		<PresetsArray>
+			<!-- PRESETS GO HERE -->
+			<Preset id="0" displayName="wwg_low">
+				<Entry varId="wwg_cg_BCP_Vimme_g" 		value="20.0"/>
+				<Entry varId="wwg_cg_BCP_Vimme_e" 		value="60.0"/>
+				<Entry varId="wwg_cg_BCP_Vimme_s" 		value="0.0"/>
+				<Entry varId="wwg_cg_BCP_Dijkstra_g"	value="20.0"/>
+				<Entry varId="wwg_cg_BCP_Dijkstra_e"	value="60.0"/>
+				<Entry varId="wwg_cg_BCP_Dijkstra_s" 	value="0.0"/>
+				<Entry varId="wwg_cg_BCP_Marquise_g"	value="20.0"/>
+				<Entry varId="wwg_cg_BCP_Marquise_e"	value="60.0"/>
+				<Entry varId="wwg_cg_BCP_Marquise_s" 	value="0.0"/>
+				<Entry varId="wwg_cg_BCP_Scoiatael_g" 	value="20.0"/>
+				<Entry varId="wwg_cg_BCP_Scoiatael_e" 	value="60.0"/>
+				<Entry varId="wwg_cg_BCP_Scoiatael_s" 	value="0.0"/>
+			</Preset>
+			<Preset id="1" displayName="wwg_med">
+				<Entry varId="wwg_cg_BCP_Vimme_g" 		value="250.0"/>
+				<Entry varId="wwg_cg_BCP_Vimme_e" 		value="120.0"/>
+				<Entry varId="wwg_cg_BCP_Vimme_s" 		value="1.0"/>
+				<Entry varId="wwg_cg_BCP_Dijkstra_g"	value="250.0"/>
+				<Entry varId="wwg_cg_BCP_Dijkstra_e"	value="120.0"/>
+				<Entry varId="wwg_cg_BCP_Dijkstra_s" 	value="1.0"/>
+				<Entry varId="wwg_cg_BCP_Marquise_g"	value="250.0"/>
+				<Entry varId="wwg_cg_BCP_Marquise_e"	value="120.0"/>
+				<Entry varId="wwg_cg_BCP_Marquise_s" 	value="1.0"/>
+				<Entry varId="wwg_cg_BCP_Scoiatael_g" 	value="250.0"/>
+				<Entry varId="wwg_cg_BCP_Scoiatael_e" 	value="120.0"/>
+				<Entry varId="wwg_cg_BCP_Scoiatael_s" 	value="1.0"/>
+			</Preset>
+			<Preset id="2" displayName="wwg_high">
+				<Entry varId="wwg_cg_BCP_Vimme_g" 		value="500.0"/>
+				<Entry varId="wwg_cg_BCP_Vimme_e" 		value="240.0"/>
+				<Entry varId="wwg_cg_BCP_Vimme_s" 		value="2.0"/>
+				<Entry varId="wwg_cg_BCP_Dijkstra_g"	value="500.0"/>
+				<Entry varId="wwg_cg_BCP_Dijkstra_e"	value="240.0"/>
+				<Entry varId="wwg_cg_BCP_Dijkstra_s" 	value="2.0"/>
+				<Entry varId="wwg_cg_BCP_Marquise_g"	value="500.0"/>
+				<Entry varId="wwg_cg_BCP_Marquise_e"	value="240.0"/>
+				<Entry varId="wwg_cg_BCP_Marquise_s" 	value="2.0"/>
+				<Entry varId="wwg_cg_BCP_Scoiatael_g" 	value="500.0"/>
+				<Entry varId="wwg_cg_BCP_Scoiatael_e" 	value="240.0"/>
+				<Entry varId="wwg_cg_BCP_Scoiatael_s" 	value="2.0"/>
+			</Preset>
+			<Preset id="3" displayName="wwg_stup">
+				<Entry varId="wwg_cg_BCP_Vimme_g" 		value="1000.0"/>
+				<Entry varId="wwg_cg_BCP_Vimme_e" 		value="500.0"/>
+				<Entry varId="wwg_cg_BCP_Vimme_s" 		value="03.0"/>
+				<Entry varId="wwg_cg_BCP_Dijkstra_g"	value="1000.0"/>
+				<Entry varId="wwg_cg_BCP_Dijkstra_e"	value="500.0"/>
+				<Entry varId="wwg_cg_BCP_Dijkstra_s" 	value="03.0"/>
+				<Entry varId="wwg_cg_BCP_Marquise_g"	value="1000.0"/>
+				<Entry varId="wwg_cg_BCP_Marquise_e"	value="500.0"/>
+				<Entry varId="wwg_cg_BCP_Marquise_s" 	value="03.0"/>
+				<Entry varId="wwg_cg_BCP_Scoiatael_g" 	value="1000.0"/>
+				<Entry varId="wwg_cg_BCP_Scoiatael_e" 	value="500.0"/>
+				<Entry varId="wwg_cg_BCP_Scoiatael_s" 	value="03.0"/>
+			</Preset>
+		</PresetsArray>
+
+		<VisibleVars>
+			<!-- Big City Players -->
+			<Var id="wwg_cg_BCP_Vimme_g" 			displayName="wwg_cg_BCP_Vimme_dn_g" 			displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_BCP_Vimme_e" 			displayName="wwg_cg_BCP_Vimme_dn_e" 			displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_BCP_Vimme_s" 			displayName="wwg_cg_BCP_Vimme_dn_s" 			displayType="SLIDER;0;5;5"/>
+			
+			<Var id="Separator" 					displayName="" 									displayType="SUBTLE_SEPARATOR"/>
+			<Var id="wwg_cg_BCP_Dijkstra_g"			displayName="wwg_cg_BCP_Dijkstra_dn_g" 			displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_BCP_Dijkstra_e"			displayName="wwg_cg_BCP_Dijkstra_dn_e" 			displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_BCP_Dijkstra_s"			displayName="wwg_cg_BCP_Dijkstra_dn_s" 			displayType="SLIDER;0;5;5"/>
+			
+			<Var id="Separator" 					displayName="" 									displayType="SUBTLE_SEPARATOR"/>
+			<Var id="wwg_cg_BCP_Marquise_g"			displayName="wwg_cg_BCP_Marquise_dn_g" 			displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_BCP_Marquise_e"			displayName="wwg_cg_BCP_Marquise_dn_e" 			displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_BCP_Marquise_s"			displayName="wwg_cg_BCP_Marquise_dn_s" 			displayType="SLIDER;0;5;5"/>
+			
+			<Var id="Separator" 					displayName="" 									displayType="SUBTLE_SEPARATOR"/>
+			<Var id="wwg_cg_BCP_Scoiatael_g"		displayName="wwg_cg_BCP_Scoiatael_dn_g" 		displayType="SLIDER;0;1000;1000"/>	
+			<Var id="wwg_cg_BCP_Scoiatael_e"		displayName="wwg_cg_BCP_Scoiatael_dn_e" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_BCP_Scoiatael_s"		displayName="wwg_cg_BCP_Scoiatael_dn_s" 		displayType="SLIDER;0;5;5"/>
+		</VisibleVars>	
+	</Group>
+	<Group id="WWG_HS" displayName="Mods.wwg_name.wwg_menu_quests.wwg_menu_individual.wwg_menu_base.wwg_menu_hs">
+		<PresetsArray>
+			<!-- PRESETS GO HERE -->
+			<Preset id="0" displayName="wwg_low">
+				<Entry varId="wwg_cg_HS_Bernard_g" 		value="20.0"/>
+				<Entry varId="wwg_cg_HS_Bernard_e" 		value="60.0"/>
+				<Entry varId="wwg_cg_HS_Bernard_s" 		value="0.0"/>
+				<Entry varId="wwg_cg_HS_Sasha_g"		value="20.0"/>
+				<Entry varId="wwg_cg_HS_Sasha_e"		value="60.0"/>
+				<Entry varId="wwg_cg_HS_Sasha_s"		value="0.0"/>
+				<Entry varId="wwg_cg_HS_Finneas_g"		value="20.0"/>
+				<Entry varId="wwg_cg_HS_Finneas_e"		value="60.0"/>
+				<Entry varId="wwg_cg_HS_Finneas_s"		value="0.0"/>
+				<Entry varId="wwg_cg_HS_Tybalt_g"		value="20.0"/>
+				<Entry varId="wwg_cg_HS_Tybalt_e"		value="60.0"/>
+				<Entry varId="wwg_cg_HS_Tybalt_s"		value="0.0"/>
+			</Preset>	
+			<Preset id="1" displayName="wwg_med">	
+				<Entry varId="wwg_cg_HS_Bernard_g" 		value="250.0"/>
+				<Entry varId="wwg_cg_HS_Bernard_e" 		value="120.0"/>
+				<Entry varId="wwg_cg_HS_Bernard_s" 		value="1.0"/>
+				<Entry varId="wwg_cg_HS_Sasha_g"		value="250.0"/>
+				<Entry varId="wwg_cg_HS_Sasha_e"		value="120.0"/>
+				<Entry varId="wwg_cg_HS_Sasha_s"		value="1.0"/>
+				<Entry varId="wwg_cg_HS_Finneas_g"		value="250.0"/>
+				<Entry varId="wwg_cg_HS_Finneas_e"		value="120.0"/>
+				<Entry varId="wwg_cg_HS_Finneas_s"		value="1.0"/>
+				<Entry varId="wwg_cg_HS_Tybalt_g"		value="250.0"/>
+				<Entry varId="wwg_cg_HS_Tybalt_e"		value="120.0"/>
+				<Entry varId="wwg_cg_HS_Tybalt_s"		value="1.0"/>
+			</Preset>	
+			<Preset id="2" displayName="wwg_high">	
+				<Entry varId="wwg_cg_HS_Bernard_g" 		value="500.0"/>
+				<Entry varId="wwg_cg_HS_Bernard_e" 		value="240.0"/>
+				<Entry varId="wwg_cg_HS_Bernard_s" 		value="2.0"/>
+				<Entry varId="wwg_cg_HS_Sasha_g"		value="500.0"/>
+				<Entry varId="wwg_cg_HS_Sasha_e"		value="240.0"/>
+				<Entry varId="wwg_cg_HS_Sasha_s"		value="2.0"/>
+				<Entry varId="wwg_cg_HS_Finneas_g"		value="500.0"/>
+				<Entry varId="wwg_cg_HS_Finneas_e"		value="240.0"/>
+				<Entry varId="wwg_cg_HS_Finneas_s"		value="2.0"/>
+				<Entry varId="wwg_cg_HS_Tybalt_g"		value="500.0"/>
+				<Entry varId="wwg_cg_HS_Tybalt_e"		value="240.0"/>
+				<Entry varId="wwg_cg_HS_Tybalt_s"		value="2.0"/>
+			</Preset>	
+			<Preset id="3" displayName="wwg_stup">	
+				<Entry varId="wwg_cg_HS_Bernard_g" 		value="1000.0"/>
+				<Entry varId="wwg_cg_HS_Bernard_e" 		value="500.0"/>
+				<Entry varId="wwg_cg_HS_Bernard_s" 		value="03.0"/>
+				<Entry varId="wwg_cg_HS_Sasha_g"		value="1000.0"/>
+				<Entry varId="wwg_cg_HS_Sasha_e"		value="500.0"/>
+				<Entry varId="wwg_cg_HS_Sasha_s"		value="03.0"/>
+				<Entry varId="wwg_cg_HS_Finneas_g"		value="1000.0"/>
+				<Entry varId="wwg_cg_HS_Finneas_e"		value="500.0"/>
+				<Entry varId="wwg_cg_HS_Finneas_s"		value="03.0"/>
+				<Entry varId="wwg_cg_HS_Tybalt_g"		value="1000.0"/>
+				<Entry varId="wwg_cg_HS_Tybalt_e"		value="500.0"/>
+				<Entry varId="wwg_cg_HS_Tybalt_s"		value="03.0"/>
+			</Preset>
+		</PresetsArray>
+
+		<VisibleVars>
+			<!-- High Stakes -->
+			<Var id="wwg_cg_HS_Bernard_g" 		displayName="wwg_cg_HS_Bernard_dn_g" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_HS_Bernard_e" 		displayName="wwg_cg_HS_Bernard_dn_e" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_HS_Bernard_s" 		displayName="wwg_cg_HS_Bernard_dn_s" 		displayType="SLIDER;0;5;5"/>
+			
+			<Var id="Separator" 				displayName="" 								displayType="SUBTLE_SEPARATOR"/>
+			<Var id="wwg_cg_HS_Sasha_g"			displayName="wwg_cg_HS_Sasha_dn_g" 			displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_HS_Sasha_e"			displayName="wwg_cg_HS_Sasha_dn_e" 			displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_HS_Sasha_s"			displayName="wwg_cg_HS_Sasha_dn_s" 			displayType="SLIDER;0;5;5"/>
+			
+			<Var id="Separator" 				displayName="" 								displayType="SUBTLE_SEPARATOR"/>
+			<Var id="wwg_cg_HS_Finneas_g"		displayName="wwg_cg_HS_Finneas_dn_g" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_HS_Finneas_e"		displayName="wwg_cg_HS_Finneas_dn_e" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_HS_Finneas_s"		displayName="wwg_cg_HS_Finneas_dn_s" 		displayType="SLIDER;0;5;5"/>
+			
+			<Var id="Separator" 				displayName="" 								displayType="SUBTLE_SEPARATOR"/>
+			<Var id="wwg_cg_HS_Tybalt_g"		displayName="wwg_cg_HS_Tybalt_dn_g" 		displayType="SLIDER;0;1000;1000"/>	
+			<Var id="wwg_cg_HS_Tybalt_e"		displayName="wwg_cg_HS_Tybalt_dn_e" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_HS_Tybalt_s"		displayName="wwg_cg_HS_Tybalt_dn_s" 		displayType="SLIDER;0;5;5"/>
+		</VisibleVars>	
+	</Group>
+	<Group id="WWG_OP" displayName="Mods.wwg_name.wwg_menu_quests.wwg_menu_individual.wwg_menu_base.wwg_menu_op">
+		<PresetsArray>
+			<!-- PRESETS GO HERE -->
+			<Preset id="0" displayName="wwg_low">
+				<Entry varId="wwg_cg_OP_Roche_g" 		value="20.0"/>
+				<Entry varId="wwg_cg_OP_Roche_e" 		value="60.0"/>
+				<Entry varId="wwg_cg_OP_Roche_s" 		value="0.0"/>
+				<Entry varId="wwg_cg_OP_Thaler_g"		value="20.0"/>
+				<Entry varId="wwg_cg_OP_Thaler_e"		value="60.0"/>
+				<Entry varId="wwg_cg_OP_Thaler_s"		value="0.0"/>
+				<Entry varId="wwg_cg_OP_Lambert_g"		value="20.0"/>
+				<Entry varId="wwg_cg_OP_Lambert_e"		value="60.0"/>
+				<Entry varId="wwg_cg_OP_Lambert_s"		value="0.0"/>
+				<Entry varId="wwg_cg_OP_Zoltan_g"		value="20.0"/>
+				<Entry varId="wwg_cg_OP_Zoltan_e"		value="60.0"/>
+				<Entry varId="wwg_cg_OP_Zoltan_s"		value="0.0"/>
+			</Preset>	
+			<Preset id="1" displayName="wwg_med">	
+				<Entry varId="wwg_cg_OP_Roche_g" 		value="250.0"/>
+				<Entry varId="wwg_cg_OP_Roche_e" 		value="120.0"/>
+				<Entry varId="wwg_cg_OP_Roche_s" 		value="1.0"/>
+				<Entry varId="wwg_cg_OP_Thaler_g"		value="250.0"/>
+				<Entry varId="wwg_cg_OP_Thaler_e"		value="120.0"/>
+				<Entry varId="wwg_cg_OP_Thaler_s"		value="1.0"/>
+				<Entry varId="wwg_cg_OP_Lambert_g"		value="250.0"/>
+				<Entry varId="wwg_cg_OP_Lambert_e"		value="120.0"/>
+				<Entry varId="wwg_cg_OP_Lambert_s"		value="1.0"/>
+				<Entry varId="wwg_cg_OP_Zoltan_g"		value="250.0"/>
+				<Entry varId="wwg_cg_OP_Zoltan_e"		value="120.0"/>
+				<Entry varId="wwg_cg_OP_Zoltan_s"		value="1.0"/>
+			</Preset>	
+			<Preset id="2" displayName="wwg_high">	
+				<Entry varId="wwg_cg_OP_Roche_g" 		value="500.0"/>
+				<Entry varId="wwg_cg_OP_Roche_e" 		value="240.0"/>
+				<Entry varId="wwg_cg_OP_Roche_s" 		value="2.0"/>
+				<Entry varId="wwg_cg_OP_Thaler_g"		value="500.0"/>
+				<Entry varId="wwg_cg_OP_Thaler_e"		value="240.0"/>
+				<Entry varId="wwg_cg_OP_Thaler_s"		value="2.0"/>
+				<Entry varId="wwg_cg_OP_Lambert_g"		value="500.0"/>
+				<Entry varId="wwg_cg_OP_Lambert_e"		value="240.0"/>
+				<Entry varId="wwg_cg_OP_Lambert_s"		value="2.0"/>
+				<Entry varId="wwg_cg_OP_Zoltan_g"		value="500.0"/>
+				<Entry varId="wwg_cg_OP_Zoltan_e"		value="240.0"/>
+				<Entry varId="wwg_cg_OP_Zoltan_s"		value="2.0"/>
+			</Preset>	
+			<Preset id="3" displayName="wwg_stup">	
+				<Entry varId="wwg_cg_OP_Roche_g" 		value="1000.0"/>
+				<Entry varId="wwg_cg_OP_Roche_e" 		value="500.0"/>
+				<Entry varId="wwg_cg_OP_Roche_s" 		value="03.0"/>
+				<Entry varId="wwg_cg_OP_Thaler_g"		value="1000.0"/>
+				<Entry varId="wwg_cg_OP_Thaler_e"		value="500.0"/>
+				<Entry varId="wwg_cg_OP_Thaler_s"		value="03.0"/>
+				<Entry varId="wwg_cg_OP_Lambert_g"		value="1000.0"/>
+				<Entry varId="wwg_cg_OP_Lambert_e"		value="500.0"/>
+				<Entry varId="wwg_cg_OP_Lambert_s"		value="03.0"/>
+				<Entry varId="wwg_cg_OP_Zoltan_g"		value="1000.0"/>
+				<Entry varId="wwg_cg_OP_Zoltan_e"		value="500.0"/>
+				<Entry varId="wwg_cg_OP_Zoltan_s"		value="03.0"/>
+			</Preset>
+		</PresetsArray>
+
+		<VisibleVars>
+			<!-- Old Pals -->
+			<Var id="wwg_cg_OP_Roche_g" 		displayName="wwg_cg_OP_Roche_dn_g" 			displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_OP_Roche_e" 		displayName="wwg_cg_OP_Roche_dn_e" 			displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_OP_Roche_s" 		displayName="wwg_cg_OP_Roche_dn_s" 			displayType="SLIDER;0;5;5"/>
+			
+			<Var id="Separator" 				displayName="" 								displayType="SUBTLE_SEPARATOR"/>
+			<Var id="wwg_cg_OP_Thaler_g"		displayName="wwg_cg_OP_Thaler_dn_g" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_OP_Thaler_e"		displayName="wwg_cg_OP_Thaler_dn_e" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_OP_Thaler_s"		displayName="wwg_cg_OP_Thaler_dn_s" 		displayType="SLIDER;0;5;5"/>
+			
+			<Var id="Separator" 				displayName="" 								displayType="SUBTLE_SEPARATOR"/>
+			<Var id="wwg_cg_OP_Lambert_g"		displayName="wwg_cg_OP_Lambert_dn_g" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_OP_Lambert_e"		displayName="wwg_cg_OP_Lambert_dn_e" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_OP_Lambert_s"		displayName="wwg_cg_OP_Lambert_dn_s" 		displayType="SLIDER;0;5;5"/>
+			
+			<Var id="Separator" 				displayName="" 								displayType="SUBTLE_SEPARATOR"/>
+			<Var id="wwg_cg_OP_Zoltan_g"		displayName="wwg_cg_OP_Zoltan_dn_g" 		displayType="SLIDER;0;1000;1000"/>	
+			<Var id="wwg_cg_OP_Zoltan_e"		displayName="wwg_cg_OP_Zoltan_dn_e" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_OP_Zoltan_s"		displayName="wwg_cg_OP_Zoltan_dn_s" 		displayType="SLIDER;0;5;5"/>
+		</VisibleVars>	
+	</Group>
+	<Group id="WWG_PI" displayName="Mods.wwg_name.wwg_menu_quests.wwg_menu_individual.wwg_menu_base.wwg_menu_pi">
+		<PresetsArray>
+			<!-- PRESETS GO HERE -->
+			<Preset id="0" displayName="wwg_low">
+				<Entry varId="wwg_cg_PI_stjepan_g"	value="20.0"/>
+				<Entry varId="wwg_cg_PI_stjepan_e"	value="60.0"/>
+				<Entry varId="wwg_cg_PI_stjepan_s"	value="0.0"/>
+				<Entry varId="wwg_cg_PI_olivier_g"	value="20.0"/>
+				<Entry varId="wwg_cg_PI_olivier_e"	value="60.0"/>
+				<Entry varId="wwg_cg_PI_olivier_s"	value="0.0"/>
+				<Entry varId="wwg_cg_PI_innkeep_g"	value="20.0"/>
+				<Entry varId="wwg_cg_PI_innkeep_e"	value="60.0"/>
+				<Entry varId="wwg_cg_PI_innkeep_s"	value="0.0"/>
+			</Preset>	
+			<Preset id="1" displayName="wwg_med">	
+				<Entry varId="wwg_cg_PI_stjepan_g"	value="250.0"/>
+				<Entry varId="wwg_cg_PI_stjepan_e"	value="120.0"/>
+				<Entry varId="wwg_cg_PI_stjepan_s"	value="1.0"/>
+				<Entry varId="wwg_cg_PI_olivier_g"	value="250.0"/>
+				<Entry varId="wwg_cg_PI_olivier_e"	value="120.0"/>
+				<Entry varId="wwg_cg_PI_olivier_s"	value="1.0"/>
+				<Entry varId="wwg_cg_PI_innkeep_g"	value="250.0"/>
+				<Entry varId="wwg_cg_PI_innkeep_e"	value="120.0"/>
+				<Entry varId="wwg_cg_PI_innkeep_s"	value="1.0"/>
+			</Preset>	
+			<Preset id="2" displayName="wwg_high">	
+				<Entry varId="wwg_cg_PI_stjepan_g"	value="500.0"/>
+				<Entry varId="wwg_cg_PI_stjepan_e"	value="240.0"/>
+				<Entry varId="wwg_cg_PI_stjepan_s"	value="2.0"/>
+				<Entry varId="wwg_cg_PI_olivier_g"	value="500.0"/>
+				<Entry varId="wwg_cg_PI_olivier_e"	value="240.0"/>
+				<Entry varId="wwg_cg_PI_olivier_s"	value="2.0"/>
+				<Entry varId="wwg_cg_PI_innkeep_g"	value="500.0"/>
+				<Entry varId="wwg_cg_PI_innkeep_e"	value="240.0"/>
+				<Entry varId="wwg_cg_PI_innkeep_s"	value="2.0"/>
+			</Preset>	
+			<Preset id="3" displayName="wwg_stup">	
+				<Entry varId="wwg_cg_PI_stjepan_g"	value="1000.0"/>
+				<Entry varId="wwg_cg_PI_stjepan_e"	value="500.0"/>
+				<Entry varId="wwg_cg_PI_stjepan_s"	value="03.0"/>
+				<Entry varId="wwg_cg_PI_olivier_g"	value="1000.0"/>
+				<Entry varId="wwg_cg_PI_olivier_e"	value="500.0"/>
+				<Entry varId="wwg_cg_PI_olivier_s"	value="03.0"/>
+				<Entry varId="wwg_cg_PI_innkeep_g"	value="1000.0"/>
+				<Entry varId="wwg_cg_PI_innkeep_e"	value="500.0"/>
+				<Entry varId="wwg_cg_PI_innkeep_s"	value="03.0"/>
+			</Preset>
+		</PresetsArray>
+
+		<VisibleVars>
+			<!-- Playing InnKeepers -->
+			<Var id="wwg_cg_PI_stjepan_g" 		displayName="wwg_cg_PI_stjepan_dn_g" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_PI_stjepan_e" 		displayName="wwg_cg_PI_stjepan_dn_e" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_PI_stjepan_s" 		displayName="wwg_cg_PI_stjepan_dn_s" 		displayType="SLIDER;0;5;5"/>
+			
+			<Var id="Separator" 				displayName="" 								displayType="SUBTLE_SEPARATOR"/>
+			<Var id="wwg_cg_PI_olivier_g"		displayName="wwg_cg_PI_olivier_dn_g" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_PI_olivier_e"		displayName="wwg_cg_PI_olivier_dn_e" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_PI_olivier_s"		displayName="wwg_cg_PI_olivier_dn_s" 		displayType="SLIDER;0;5;5"/>
+			
+			<Var id="Separator" 				displayName="" 								displayType="SUBTLE_SEPARATOR"/>
+			<Var id="wwg_cg_PI_innkeep_g"		displayName="wwg_cg_PI_innkeep_dn_g" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_PI_innkeep_e"		displayName="wwg_cg_PI_innkeep_dn_e" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_PI_innkeep_s"		displayName="wwg_cg_PI_innkeep_dn_s" 		displayType="SLIDER;0;5;5"/>			
+		</VisibleVars>	
+	</Group>
+	<Group id="WWG_SS" displayName="Mods.wwg_name.wwg_menu_quests.wwg_menu_individual.wwg_menu_base.wwg_menu_ss">
+		<PresetsArray>
+			<!-- PRESETS GO HERE -->
+			<Preset id="0" displayName="wwg_low">
+				<Entry varId="wwg_cg_SS_Ermion_g" 		value="20.0"/>
+				<Entry varId="wwg_cg_SS_Ermion_e" 		value="60.0"/>
+				<Entry varId="wwg_cg_SS_Ermion_s" 		value="0.0"/>
+				<Entry varId="wwg_cg_SS_Crach_g"		value="20.0"/>
+				<Entry varId="wwg_cg_SS_Crach_e"		value="60.0"/>
+				<Entry varId="wwg_cg_SS_Crach_s"		value="0.0"/>
+				<Entry varId="wwg_cg_SS_Gremist_g"		value="20.0"/>
+				<Entry varId="wwg_cg_SS_Gremist_e"		value="60.0"/>
+				<Entry varId="wwg_cg_SS_Gremist_s"		value="0.0"/>
+				<Entry varId="wwg_cg_SS_Sjusta_g"		value="20.0"/>
+				<Entry varId="wwg_cg_SS_Sjusta_e"		value="60.0"/>
+				<Entry varId="wwg_cg_SS_Sjusta_s"		value="0.0"/>
+				<Entry varId="wwg_cg_SS_Lugos_g"		value="20.0"/>
+				<Entry varId="wwg_cg_SS_Lugos_e"		value="60.0"/>
+				<Entry varId="wwg_cg_SS_Lugos_s"		value="0.0"/>
+			</Preset>	
+			<Preset id="1" displayName="wwg_med">	
+				<Entry varId="wwg_cg_SS_Ermion_g" 		value="250.0"/>
+				<Entry varId="wwg_cg_SS_Ermion_e" 		value="120.0"/>
+				<Entry varId="wwg_cg_SS_Ermion_s" 		value="1.0"/>
+				<Entry varId="wwg_cg_SS_Crach_g"		value="250.0"/>
+				<Entry varId="wwg_cg_SS_Crach_e"		value="120.0"/>
+				<Entry varId="wwg_cg_SS_Crach_s"		value="1.0"/>
+				<Entry varId="wwg_cg_SS_Gremist_g"		value="250.0"/>
+				<Entry varId="wwg_cg_SS_Gremist_e"		value="120.0"/>
+				<Entry varId="wwg_cg_SS_Gremist_s"		value="1.0"/>
+				<Entry varId="wwg_cg_SS_Sjusta_g"		value="250.0"/>
+				<Entry varId="wwg_cg_SS_Sjusta_e"		value="120.0"/>
+				<Entry varId="wwg_cg_SS_Sjusta_s"		value="1.0"/>
+				<Entry varId="wwg_cg_SS_Lugos_g"		value="250.0"/>
+				<Entry varId="wwg_cg_SS_Lugos_e"		value="120.0"/>
+				<Entry varId="wwg_cg_SS_Lugos_s"		value="1.0"/>
+			</Preset>	
+			<Preset id="2" displayName="wwg_high">	
+				<Entry varId="wwg_cg_SS_Ermion_g" 		value="500.0"/>
+				<Entry varId="wwg_cg_SS_Ermion_e" 		value="240.0"/>
+				<Entry varId="wwg_cg_SS_Ermion_s" 		value="2.0"/>
+				<Entry varId="wwg_cg_SS_Crach_g"		value="500.0"/>
+				<Entry varId="wwg_cg_SS_Crach_e"		value="240.0"/>
+				<Entry varId="wwg_cg_SS_Crach_s"		value="2.0"/>
+				<Entry varId="wwg_cg_SS_Gremist_g"		value="500.0"/>
+				<Entry varId="wwg_cg_SS_Gremist_e"		value="240.0"/>
+				<Entry varId="wwg_cg_SS_Gremist_s"		value="2.0"/>
+				<Entry varId="wwg_cg_SS_Sjusta_g"		value="500.0"/>
+				<Entry varId="wwg_cg_SS_Sjusta_e"		value="240.0"/>
+				<Entry varId="wwg_cg_SS_Sjusta_s"		value="2.0"/>
+				<Entry varId="wwg_cg_SS_Lugos_g"		value="500.0"/>
+				<Entry varId="wwg_cg_SS_Lugos_e"		value="240.0"/>
+				<Entry varId="wwg_cg_SS_Lugos_s"		value="2.0"/>
+			</Preset>	
+			<Preset id="3" displayName="wwg_stup">	
+				<Entry varId="wwg_cg_SS_Ermion_g" 		value="1000.0"/>
+				<Entry varId="wwg_cg_SS_Ermion_e" 		value="500.0"/>
+				<Entry varId="wwg_cg_SS_Ermion_s" 		value="03.0"/>
+				<Entry varId="wwg_cg_SS_Crach_g"		value="1000.0"/>
+				<Entry varId="wwg_cg_SS_Crach_e"		value="500.0"/>
+				<Entry varId="wwg_cg_SS_Crach_s"		value="03.0"/>
+				<Entry varId="wwg_cg_SS_Gremist_g"		value="1000.0"/>
+				<Entry varId="wwg_cg_SS_Gremist_e"		value="500.0"/>
+				<Entry varId="wwg_cg_SS_Gremist_s"		value="03.0"/>
+				<Entry varId="wwg_cg_SS_Sjusta_g"		value="1000.0"/>
+				<Entry varId="wwg_cg_SS_Sjusta_e"		value="500.0"/>
+				<Entry varId="wwg_cg_SS_Sjusta_s"		value="03.0"/>
+				<Entry varId="wwg_cg_SS_Lugos_g"		value="1000.0"/>
+				<Entry varId="wwg_cg_SS_Lugos_e"		value="500.0"/>
+				<Entry varId="wwg_cg_SS_Lugos_s"		value="03.0"/>
+			</Preset>
+		</PresetsArray>
+
+		<VisibleVars>
+			<!-- Skellige Style -->
+			<Var id="wwg_cg_SS_Ermion_g" 		displayName="wwg_cg_SS_Ermion_dn_g" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_SS_Ermion_e" 		displayName="wwg_cg_SS_Ermion_dn_e" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_SS_Ermion_s" 		displayName="wwg_cg_SS_Ermion_dn_s" 		displayType="SLIDER;0;5;5"/>
+			
+			<Var id="Separator" 				displayName="" 								displayType="SUBTLE_SEPARATOR"/>
+			<Var id="wwg_cg_SS_Crach_g"			displayName="wwg_cg_SS_Crach_dn_g" 			displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_SS_Crach_e"			displayName="wwg_cg_SS_Crach_dn_e" 			displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_SS_Crach_s"			displayName="wwg_cg_SS_Crach_dn_s" 			displayType="SLIDER;0;5;5"/>
+			
+			<Var id="Separator" 				displayName="" 								displayType="SUBTLE_SEPARATOR"/>
+			<Var id="wwg_cg_SS_Gremist_g"		displayName="wwg_cg_SS_Gremist_dn_g" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_SS_Gremist_e"		displayName="wwg_cg_SS_Gremist_dn_e" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_SS_Gremist_s"		displayName="wwg_cg_SS_Gremist_dn_s" 		displayType="SLIDER;0;5;5"/>
+
+			<Var id="Separator" 				displayName="" 								displayType="SUBTLE_SEPARATOR"/>			
+			<Var id="wwg_cg_SS_Sjusta_g"		displayName="wwg_cg_SS_Sjusta_dn_g" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_SS_Sjusta_e"		displayName="wwg_cg_SS_Sjusta_dn_e" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_SS_Sjusta_s"		displayName="wwg_cg_SS_Sjusta_dn_s" 		displayType="SLIDER;0;5;5"/>	
+			
+			<Var id="Separator" 				displayName="" 								displayType="SUBTLE_SEPARATOR"/>
+			<Var id="wwg_cg_SS_Lugos_g"			displayName="wwg_cg_SS_Lugos_dn_g" 			displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_SS_Lugos_e"			displayName="wwg_cg_SS_Lugos_dn_e" 			displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_SS_Lugos_s"			displayName="wwg_cg_SS_Lugos_dn_s" 			displayType="SLIDER;0;5;5"/>	
+		</VisibleVars>	
+	</Group>
+	<Group id="WWG_VP" displayName="Mods.wwg_name.wwg_menu_quests.wwg_menu_individual.wwg_menu_base.wwg_menu_vp">
+		<PresetsArray>
+			<!-- PRESETS GO HERE -->
+			<Preset id="0" displayName="wwg_low">
+				<Entry varId="wwg_cg_VP_Baron_g" 			value="20.0"/>
+				<Entry varId="wwg_cg_VP_Baron_e" 			value="60.0"/>
+				<Entry varId="wwg_cg_VP_Baron_s" 			value="0.0"/>
+				<Entry varId="wwg_cg_VP_Boatwright_g"		value="20.0"/>
+				<Entry varId="wwg_cg_VP_Boatwright_e"		value="60.0"/>
+				<Entry varId="wwg_cg_VP_Boatwright_s"		value="0.0"/>
+				<Entry varId="wwg_cg_VP_SoothSayer_g"		value="20.0"/>
+				<Entry varId="wwg_cg_VP_SoothSayer_e"		value="60.0"/>
+				<Entry varId="wwg_cg_VP_SoothSayer_s"		value="0.0"/>
+				<Entry varId="wwg_cg_VP_HaddyProdigy_g"		value="20.0"/>
+				<Entry varId="wwg_cg_VP_HaddyProdigy_e"		value="60.0"/>
+				<Entry varId="wwg_cg_VP_HaddyProdigy_s"		value="0.0"/>
+			</Preset>	
+			<Preset id="1" displayName="wwg_med">	
+				<Entry varId="wwg_cg_VP_Baron_g" 			value="250.0"/>
+				<Entry varId="wwg_cg_VP_Baron_e" 			value="120.0"/>
+				<Entry varId="wwg_cg_VP_Baron_s" 			value="1.0"/>
+				<Entry varId="wwg_cg_VP_Boatwright_g"		value="250.0"/>
+				<Entry varId="wwg_cg_VP_Boatwright_e"		value="120.0"/>
+				<Entry varId="wwg_cg_VP_Boatwright_s"		value="1.0"/>
+				<Entry varId="wwg_cg_VP_SoothSayer_g"		value="250.0"/>
+				<Entry varId="wwg_cg_VP_SoothSayer_e"		value="120.0"/>
+				<Entry varId="wwg_cg_VP_SoothSayer_s"		value="1.0"/>
+				<Entry varId="wwg_cg_VP_HaddyProdigy_g"		value="250.0"/>
+				<Entry varId="wwg_cg_VP_HaddyProdigy_e"		value="120.0"/>
+				<Entry varId="wwg_cg_VP_HaddyProdigy_s"		value="1.0"/>
+			</Preset>	
+			<Preset id="2" displayName="wwg_high">	
+				<Entry varId="wwg_cg_VP_Baron_g" 			value="500.0"/>
+				<Entry varId="wwg_cg_VP_Baron_e" 			value="240.0"/>
+				<Entry varId="wwg_cg_VP_Baron_s" 			value="2.0"/>
+				<Entry varId="wwg_cg_VP_Boatwright_g"		value="500.0"/>
+				<Entry varId="wwg_cg_VP_Boatwright_e"		value="240.0"/>
+				<Entry varId="wwg_cg_VP_Boatwright_s"		value="2.0"/>
+				<Entry varId="wwg_cg_VP_SoothSayer_g"		value="500.0"/>
+				<Entry varId="wwg_cg_VP_SoothSayer_e"		value="240.0"/>
+				<Entry varId="wwg_cg_VP_SoothSayer_s"		value="2.0"/>
+				<Entry varId="wwg_cg_VP_HaddyProdigy_g"		value="500.0"/>
+				<Entry varId="wwg_cg_VP_HaddyProdigy_e"		value="240.0"/>
+				<Entry varId="wwg_cg_VP_HaddyProdigy_s"		value="2.0"/>
+			</Preset>	
+			<Preset id="3" displayName="wwg_stup">	
+				<Entry varId="wwg_cg_VP_Baron_g" 			value="1000.0"/>
+				<Entry varId="wwg_cg_VP_Baron_e" 			value="500.0"/>
+				<Entry varId="wwg_cg_VP_Baron_s" 			value="03.0"/>
+				<Entry varId="wwg_cg_VP_Boatwright_g"		value="1000.0"/>
+				<Entry varId="wwg_cg_VP_Boatwright_e"		value="500.0"/>
+				<Entry varId="wwg_cg_VP_Boatwright_s"		value="03.0"/>
+				<Entry varId="wwg_cg_VP_SoothSayer_g"		value="1000.0"/>
+				<Entry varId="wwg_cg_VP_SoothSayer_e"		value="500.0"/>
+				<Entry varId="wwg_cg_VP_SoothSayer_s"		value="03.0"/>
+				<Entry varId="wwg_cg_VP_HaddyProdigy_g"		value="1000.0"/>
+				<Entry varId="wwg_cg_VP_HaddyProdigy_e"		value="500.0"/>
+				<Entry varId="wwg_cg_VP_HaddyProdigy_s"		value="03.0"/>
+			</Preset>
+		</PresetsArray>
+
+		<VisibleVars>
+			<!-- Velen Players -->
+			<Var id="wwg_cg_VP_Baron_g" 			displayName="wwg_cg_VP_Baron_dn_g" 				displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_VP_Baron_e" 			displayName="wwg_cg_VP_Baron_dn_e" 				displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_VP_Baron_s" 			displayName="wwg_cg_VP_Baron_dn_s" 				displayType="SLIDER;0;5;5"/>
+			
+			<Var id="Separator" 					displayName="" 									displayType="SUBTLE_SEPARATOR"/>
+			<Var id="wwg_cg_VP_Boatwright_g"		displayName="wwg_cg_VP_Boatwright_dn_g" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_VP_Boatwright_e"		displayName="wwg_cg_VP_Boatwright_dn_e" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_VP_Boatwright_s"		displayName="wwg_cg_VP_Boatwright_dn_s" 		displayType="SLIDER;0;5;5"/>
+			
+			<Var id="Separator" 					displayName="" 									displayType="SUBTLE_SEPARATOR"/>
+			<Var id="wwg_cg_VP_SoothSayer_g"		displayName="wwg_cg_VP_SoothSayer_dn_g" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_VP_SoothSayer_e"		displayName="wwg_cg_VP_SoothSayer_dn_e" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_VP_SoothSayer_s"		displayName="wwg_cg_VP_SoothSayer_dn_s" 		displayType="SLIDER;0;5;5"/>
+			
+			<Var id="Separator" 					displayName="" 									displayType="SUBTLE_SEPARATOR"/>
+			<Var id="wwg_cg_VP_HaddyProdigy_g"		displayName="wwg_cg_VP_HaddyProdigy_dn_g" 		displayType="SLIDER;0;1000;1000"/>	
+			<Var id="wwg_cg_VP_HaddyProdigy_e"		displayName="wwg_cg_VP_HaddyProdigy_dn_e" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_VP_HaddyProdigy_s"		displayName="wwg_cg_VP_HaddyProdigy_dn_s" 		displayType="SLIDER;0;5;5"/>
+		</VisibleVars>	
+	</Group>
+	<Group id="WWG_MI" displayName="Mods.wwg_name.wwg_menu_quests.wwg_menu_individual.wwg_menu_base.wwg_menu_mi">
+		<PresetsArray>
+			<!-- PRESETS GO HERE -->
+			<Preset id="0" displayName="wwg_low">
+				<Entry varId="wwg_cg_mi_Party_g" 		value="20.0"/>
+				<Entry varId="wwg_cg_mi_Party_e" 		value="60.0"/>
+				<Entry varId="wwg_cg_mi_Party_s" 		value="0.0"/>
+				<Entry varId="wwg_cg_mi_Tutorial_g" 	value="20.0"/>
+				<Entry varId="wwg_cg_mi_Tutorial_e" 	value="60.0"/>
+				<Entry varId="wwg_cg_mi_Tutorial_s" 	value="0.0"/>
+			</Preset>
+			<Preset id="1" displayName="wwg_med">
+				<Entry varId="wwg_cg_mi_Party_g" 		value="250.0"/>
+				<Entry varId="wwg_cg_mi_Party_e" 		value="120.0"/>
+				<Entry varId="wwg_cg_mi_Party_s"		value="01.0"/>
+				<Entry varId="wwg_cg_mi_Tutorial_g" 	value="250.0"/>
+				<Entry varId="wwg_cg_mi_Tutorial_e" 	value="120.0"/>
+				<Entry varId="wwg_cg_mi_Tutorial_s"		value="01.0"/>
+			</Preset>
+			<Preset id="2" displayName="wwg_high">
+				<Entry varId="wwg_cg_mi_Party_g" 		value="500.0"/>
+				<Entry varId="wwg_cg_mi_Party_e" 		value="240.0"/>
+				<Entry varId="wwg_cg_mi_Party_s"		value="02.0"/>
+				<Entry varId="wwg_cg_mi_Tutorial_g" 	value="500.0"/>
+				<Entry varId="wwg_cg_mi_Tutorial_e" 	value="240.0"/>
+				<Entry varId="wwg_cg_mi_Tutorial_s"		value="02.0"/>
+			</Preset>
+			<Preset id="3" displayName="wwg_stup">
+				<Entry varId="wwg_cg_mi_Party_g" 		value="1000.0"/>
+				<Entry varId="wwg_cg_mi_Party_e" 		value="500.0"/>
+				<Entry varId="wwg_cg_mi_Party_s"		value="03.0"/>
+				<Entry varId="wwg_cg_mi_Tutorial_g" 	value="1000.0"/>
+				<Entry varId="wwg_cg_mi_Tutorial_e" 	value="500.0"/>
+				<Entry varId="wwg_cg_mi_Tutorial_s"		value="03.0"/>
+			</Preset>
+		</PresetsArray>
+
+		<VisibleVars>
+			<!-- A Matter of Life and Death (Gwent Tournament) -->
+			<Var id="wwg_cg_mi_Party_g" 		displayName="wwg_cg_mi_party_dn_g" 			displayType="SLIDER;0;1000;1000"/>	
+			<Var id="wwg_cg_mi_Party_e" 		displayName="wwg_cg_mi_party_dn_e" 			displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_mi_Party_s" 		displayName="wwg_cg_mi_party_dn_s" 			displayType="SLIDER;0;5;5"/>
+
+			<!-- Tutorial (White Orchard) -->
+			
+			<Var id="Separator" 				displayName="" 								displayType="SUBTLE_SEPARATOR"/>
+			<Var id="wwg_cg_mi_Tutorial_g" 		displayName="wwg_cg_mi_tutorial_dn_g" 		displayType="SLIDER;0;1000;1000"/>	
+			<Var id="wwg_cg_mi_Tutorial_e" 		displayName="wwg_cg_mi_tutorial_dn_e" 		displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_mi_Tutorial_s" 		displayName="wwg_cg_mi_tutorial_dn_s" 		displayType="SLIDER;0;5;5"/>
+			
+		</VisibleVars>	
+	</Group>
+	<Group id="WWG_HOS" displayName="Mods.wwg_name.wwg_menu_quests.wwg_menu_individual.wwg_menu_dlc1">
+		<PresetsArray>
+			<!-- PRESETS GO HERE -->
+			<Preset id="0" displayName="wwg_low">
+				<Entry varId="wwg_cg_hos_shani_g" 		value="20.0"/>
+				<Entry varId="wwg_cg_hos_shani_e" 		value="60.0"/>
+				<Entry varId="wwg_cg_hos_shani_s" 		value="0.0"/>
+				<Entry varId="wwg_cg_hos_olgierd_g" 	value="20.0"/>
+				<Entry varId="wwg_cg_hos_olgierd_e" 	value="60.0"/>
+				<Entry varId="wwg_cg_hos_olgierd_s" 	value="0.0"/>
+				<Entry varId="wwg_cg_hos_hilbert_g" 	value="20.0"/>
+				<Entry varId="wwg_cg_hos_hilbert_e" 	value="60.0"/>
+				<Entry varId="wwg_cg_hos_hilbert_s" 	value="0.0"/>
+				<Entry varId="wwg_cg_hos_wedding_g" 	value="20.0"/>
+				<Entry varId="wwg_cg_hos_wedding_e" 	value="60.0"/>
+				<Entry varId="wwg_cg_hos_wedding_s" 	value="0.0"/>
+			</Preset>
+			<Preset id="1" displayName="wwg_med">
+				<Entry varId="wwg_cg_hos_shani_g" 		value="250.0"/>
+				<Entry varId="wwg_cg_hos_shani_e" 		value="120.0"/>
+				<Entry varId="wwg_cg_hos_shani_s" 		value="01.0"/>
+				<Entry varId="wwg_cg_hos_olgierd_g" 	value="250.0"/>
+				<Entry varId="wwg_cg_hos_olgierd_e" 	value="120.0"/>
+				<Entry varId="wwg_cg_hos_olgierd_s" 	value="01.0"/>
+				<Entry varId="wwg_cg_hos_hilbert_g" 	value="250.0"/>
+				<Entry varId="wwg_cg_hos_hilbert_e" 	value="120.0"/>
+				<Entry varId="wwg_cg_hos_hilbert_s" 	value="01.0"/>
+				<Entry varId="wwg_cg_hos_wedding_g" 	value="250.0"/>
+				<Entry varId="wwg_cg_hos_wedding_e" 	value="120.0"/>
+				<Entry varId="wwg_cg_hos_wedding_s" 	value="01.0"/>
+			</Preset>
+			<Preset id="2" displayName="wwg_high">
+				<Entry varId="wwg_cg_hos_shani_g" 		value="500.0"/>
+				<Entry varId="wwg_cg_hos_shani_e" 		value="240.0"/>
+				<Entry varId="wwg_cg_hos_shani_s" 		value="02.0"/>
+				<Entry varId="wwg_cg_hos_olgierd_g" 	value="500.0"/>
+				<Entry varId="wwg_cg_hos_olgierd_e" 	value="240.0"/>
+				<Entry varId="wwg_cg_hos_olgierd_s" 	value="02.0"/>
+				<Entry varId="wwg_cg_hos_hilbert_g" 	value="500.0"/>
+				<Entry varId="wwg_cg_hos_hilbert_e" 	value="240.0"/>
+				<Entry varId="wwg_cg_hos_hilbert_s" 	value="02.0"/>
+				<Entry varId="wwg_cg_hos_wedding_g" 	value="500.0"/>
+				<Entry varId="wwg_cg_hos_wedding_e" 	value="240.0"/>
+				<Entry varId="wwg_cg_hos_wedding_s" 	value="02.0"/>
+			</Preset>
+			<Preset id="3" displayName="wwg_stup">
+				<Entry varId="wwg_cg_hos_shani_g" 		value="1000.0"/>
+				<Entry varId="wwg_cg_hos_shani_e" 		value="500.0"/>
+				<Entry varId="wwg_cg_hos_shani_s" 		value="03.0"/>
+				<Entry varId="wwg_cg_hos_olgierd_g" 	value="1000.0"/>
+				<Entry varId="wwg_cg_hos_olgierd_e" 	value="500.0"/>
+				<Entry varId="wwg_cg_hos_olgierd_s" 	value="03.0"/>
+				<Entry varId="wwg_cg_hos_hilbert_g" 	value="1000.0"/>
+				<Entry varId="wwg_cg_hos_hilbert_e" 	value="500.0"/>
+				<Entry varId="wwg_cg_hos_hilbert_s" 	value="03.0"/>
+				<Entry varId="wwg_cg_hos_wedding_g" 	value="1000.0"/>
+				<Entry varId="wwg_cg_hos_wedding_e" 	value="500.0"/>
+				<Entry varId="wwg_cg_hos_wedding_s" 	value="03.0"/>
+			</Preset>
+		</PresetsArray>
+
+		<VisibleVars>
+			<!-- A Matter of Life and Death (Gwent Tournament) -->
+			<Var id="wwg_cg_hos_shani_g" 		displayName="wwg_cg_hos_shani_dn_g" 			displayType="SLIDER;0;1000;1000"/>	
+			<Var id="wwg_cg_hos_shani_e" 		displayName="wwg_cg_hos_shani_dn_e" 			displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_hos_shani_s" 		displayName="wwg_cg_hos_shani_dn_s" 			displayType="SLIDER;0;5;5"/>
+			
+			<Var id="Separator" 				displayName="" 									displayType="SUBTLE_SEPARATOR"/>
+			<Var id="wwg_cg_hos_olgierd_g" 		displayName="wwg_cg_hos_olgierd_dn_g" 			displayType="SLIDER;0;1000;1000"/>	
+			<Var id="wwg_cg_hos_olgierd_e" 		displayName="wwg_cg_hos_olgierd_dn_e" 			displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_hos_olgierd_s" 		displayName="wwg_cg_hos_olgierd_dn_s" 			displayType="SLIDER;0;5;5"/>
+			
+			<Var id="Separator" 				displayName="" 									displayType="SUBTLE_SEPARATOR"/>
+			<Var id="wwg_cg_hos_hilbert_g" 		displayName="wwg_cg_hos_hilbert_dn_g" 			displayType="SLIDER;0;1000;1000"/>	
+			<Var id="wwg_cg_hos_hilbert_e" 		displayName="wwg_cg_hos_hilbert_dn_e" 			displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_hos_hilbert_s" 		displayName="wwg_cg_hos_hilbert_dn_s" 			displayType="SLIDER;0;5;5"/>
+			
+			<Var id="Separator" 				displayName="" 									displayType="SUBTLE_SEPARATOR"/>
+			<Var id="wwg_cg_hos_wedding_g" 		displayName="wwg_cg_hos_wedding_dn_g" 			displayType="SLIDER;0;1000;1000"/>	
+			<Var id="wwg_cg_hos_wedding_e" 		displayName="wwg_cg_hos_wedding_dn_e" 			displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_hos_wedding_s" 		displayName="wwg_cg_hos_wedding_dn_s" 			displayType="SLIDER;0;5;5"/>
+			
+		</VisibleVars>	
+	</Group>
+	<Group id="WWG_BAW" displayName="Mods.wwg_name.wwg_menu_quests.wwg_menu_individual.wwg_menu_dlc2">
+		<PresetsArray>
+			<!-- PRESETS GO HERE -->
+			<Preset id="0" displayName="wwg_low">
+				<Entry varId="wwg_cg_baw_hamal_g" 		value="20.0"/>
+				<Entry varId="wwg_cg_baw_hamal_e" 		value="60.0"/>
+				<Entry varId="wwg_cg_baw_hamal_s" 		value="0.0"/>
+				<Entry varId="wwg_cg_baw_Tourn_g" 		value="20.0"/>
+				<Entry varId="wwg_cg_baw_Tourn_e" 		value="60.0"/>
+				<Entry varId="wwg_cg_baw_Tourn_s" 		value="0.0"/>
+				<Entry varId="wwg_cg_baw_yaki_g" 		value="20.0"/>
+				<Entry varId="wwg_cg_baw_yaki_e" 		value="60.0"/>
+				<Entry varId="wwg_cg_baw_yaki_s" 		value="0.0"/>
+				<Entry varId="wwg_cg_baw_trentin_g" 	value="20.0"/>
+				<Entry varId="wwg_cg_baw_trentin_e" 	value="60.0"/>
+				<Entry varId="wwg_cg_baw_trentin_s" 	value="0.0"/>
+				<Entry varId="wwg_cg_baw_Customer_g" 	value="20.0"/>
+				<Entry varId="wwg_cg_baw_Customer_e" 	value="60.0"/>
+				<Entry varId="wwg_cg_baw_Customer_s" 	value="0.0"/>
+			</Preset>
+			<Preset id="1" displayName="wwg_med">
+				<Entry varId="wwg_cg_baw_hamal_g" 		value="250.0"/>
+				<Entry varId="wwg_cg_baw_hamal_e" 		value="120.0"/>
+				<Entry varId="wwg_cg_baw_hamal_s" 		value="01.0"/>
+				<Entry varId="wwg_cg_baw_Tourn_g" 		value="250.0"/>
+				<Entry varId="wwg_cg_baw_Tourn_e" 		value="120.0"/>
+				<Entry varId="wwg_cg_baw_Tourn_s" 		value="01.0"/>
+				<Entry varId="wwg_cg_baw_yaki_g" 		value="250.0"/>
+				<Entry varId="wwg_cg_baw_yaki_e" 		value="120.0"/>
+				<Entry varId="wwg_cg_baw_yaki_s" 		value="01.0"/>
+				<Entry varId="wwg_cg_baw_trentin_g" 	value="250.0"/>
+				<Entry varId="wwg_cg_baw_trentin_e" 	value="120.0"/>
+				<Entry varId="wwg_cg_baw_trentin_s" 	value="01.0"/>
+				<Entry varId="wwg_cg_baw_Customer_g" 	value="250.0"/>
+				<Entry varId="wwg_cg_baw_Customer_e" 	value="120.0"/>
+				<Entry varId="wwg_cg_baw_Customer_s" 	value="01.0"/>
+			</Preset>
+			<Preset id="2" displayName="wwg_high">
+				<Entry varId="wwg_cg_baw_hamal_g" 		value="500.0"/>
+				<Entry varId="wwg_cg_baw_hamal_e" 		value="240.0"/>
+				<Entry varId="wwg_cg_baw_hamal_s" 		value="02.0"/>
+				<Entry varId="wwg_cg_baw_Tourn_g" 		value="500.0"/>
+				<Entry varId="wwg_cg_baw_Tourn_e" 		value="240.0"/>
+				<Entry varId="wwg_cg_baw_Tourn_s" 		value="02.0"/>
+				<Entry varId="wwg_cg_baw_yaki_g" 		value="500.0"/>
+				<Entry varId="wwg_cg_baw_yaki_e" 		value="240.0"/>
+				<Entry varId="wwg_cg_baw_yaki_s" 		value="02.0"/>
+				<Entry varId="wwg_cg_baw_trentin_g" 	value="500.0"/>
+				<Entry varId="wwg_cg_baw_trentin_e" 	value="240.0"/>
+				<Entry varId="wwg_cg_baw_trentin_s" 	value="02.0"/>
+				<Entry varId="wwg_cg_baw_Customer_g" 	value="500.0"/>
+				<Entry varId="wwg_cg_baw_Customer_e" 	value="240.0"/>
+				<Entry varId="wwg_cg_baw_Customer_s" 	value="02.0"/>
+			</Preset>
+			<Preset id="3" displayName="wwg_stup">
+				<Entry varId="wwg_cg_baw_hamal_g" 		value="1000.0"/>
+				<Entry varId="wwg_cg_baw_hamal_e" 		value="500.0"/>
+				<Entry varId="wwg_cg_baw_hamal_s" 		value="03.0"/>
+				<Entry varId="wwg_cg_baw_Tourn_g" 		value="1000.0"/>
+				<Entry varId="wwg_cg_baw_Tourn_e" 		value="500.0"/>
+				<Entry varId="wwg_cg_baw_Tourn_s" 		value="03.0"/>
+				<Entry varId="wwg_cg_baw_yaki_g" 		value="1000.0"/>
+				<Entry varId="wwg_cg_baw_yaki_e" 		value="500.0"/>
+				<Entry varId="wwg_cg_baw_yaki_s" 		value="03.0"/>
+				<Entry varId="wwg_cg_baw_trentin_g" 	value="1000.0"/>
+				<Entry varId="wwg_cg_baw_trentin_e" 	value="500.0"/>
+				<Entry varId="wwg_cg_baw_trentin_s" 	value="03.0"/>
+				<Entry varId="wwg_cg_baw_Customer_g" 	value="1000.0"/>
+				<Entry varId="wwg_cg_baw_Customer_e" 	value="500.0"/>
+				<Entry varId="wwg_cg_baw_Customer_s" 	value="03.0"/>
+			</Preset>
+		</PresetsArray>
+
+		<VisibleVars>
+			<!-- Blood and Wine -->
+			<Var id="wwg_cg_baw_hamal_g" 		displayName="wwg_cg_baw_hamal_dn_g" 			displayType="SLIDER;0;1000;1000"/>	
+			<Var id="wwg_cg_baw_hamal_e" 		displayName="wwg_cg_baw_hamal_dn_e" 			displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_baw_hamal_s" 		displayName="wwg_cg_baw_hamal_dn_s" 			displayType="SLIDER;0;5;5"/>
+			
+			<Var id="Separator" 				displayName="" 									displayType="SUBTLE_SEPARATOR"/>
+			<Var id="wwg_cg_baw_Tourn_g" 		displayName="wwg_cg_baw_Tourn_dn_g" 			displayType="SLIDER;0;1000;1000"/>	
+			<Var id="wwg_cg_baw_Tourn_e" 		displayName="wwg_cg_baw_Tourn_dn_e" 			displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_baw_Tourn_s" 		displayName="wwg_cg_baw_Tourn_dn_s" 			displayType="SLIDER;0;5;5"/>
+			
+			<Var id="Separator" 				displayName="" 									displayType="SUBTLE_SEPARATOR"/>
+			<Var id="wwg_cg_baw_yaki_g" 		displayName="wwg_cg_baw_yaki_dn_g" 				displayType="SLIDER;0;1000;1000"/>	
+			<Var id="wwg_cg_baw_yaki_e" 		displayName="wwg_cg_baw_yaki_dn_e" 				displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_baw_yaki_s" 		displayName="wwg_cg_baw_yaki_dn_s" 				displayType="SLIDER;0;5;5"/>
+			
+			<Var id="Separator" 				displayName="" 									displayType="SUBTLE_SEPARATOR"/>
+			<Var id="wwg_cg_baw_trentin_g" 		displayName="wwg_cg_baw_trentin_dn_g" 			displayType="SLIDER;0;1000;1000"/>	
+			<Var id="wwg_cg_baw_trentin_e" 		displayName="wwg_cg_baw_trentin_dn_e" 			displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_baw_trentin_s" 		displayName="wwg_cg_baw_trentin_dn_s" 			displayType="SLIDER;0;5;5"/>
+			
+			<Var id="Separator" 				displayName="" 									displayType="SUBTLE_SEPARATOR"/>
+			<Var id="wwg_cg_baw_Customer_g" 	displayName="wwg_cg_baw_Customer_dn_g" 			displayType="SLIDER;0;1000;1000"/>	
+			<Var id="wwg_cg_baw_Customer_e" 	displayName="wwg_cg_baw_Customer_dn_e" 			displayType="SLIDER;0;1000;1000"/>
+			<Var id="wwg_cg_baw_Customer_s" 	displayName="wwg_cg_baw_Customer_dn_s" 			displayType="SLIDER;0;5;5"/>
+			
+		</VisibleVars>	
+	</Group>
+	<Group id="WWG_NotificationSettings" displayName="Mods.wwg_name.wwg_menu_notifications">
+		<PresetsArray>
+			<!-- PRESETS GO HERE -->
+			<Preset id="0" displayName="wwg_defa">
+				<Entry varId="wwg_Toggle_Enabled3" 	value="true"/>
+				<Entry varId="wwg_Toggle_Enabled4" 	value="true"/>
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<!-- Notification Settings -->
+			<Var id="wwg_Toggle_Enabled3" 	displayName="wwg_enableswitch_gno_dn" 	displayType="TOGGLE"/>
+			<Var id="wwg_Toggle_Enabled4" 	displayName="wwg_enableswitch_eno_dn" 	displayType="TOGGLE"/>
+		</VisibleVars>
+	</Group>
+</UserConfig>
+
+	

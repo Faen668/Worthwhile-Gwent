@@ -1,0 +1,209 @@
+;meta[language=en]
+; id      |key(hex)|key(str)| text
+;
+; comment lines use ; as first character
+; all comment lines (except the two line header) will be ignored
+; This file is used to create translations using https://www.nexusmods.com/witcher3/mods/1055 all credits go to rmemr
+;83
+;
+;General
+2114088000||panel_Mods|Mods
+2114088001||panel_wwg_name|Worthwhile Gwent
+;
+;Panels
+2114088002||panel_wwg_menu_notifications|Notifications
+2114088003||preset_Mods_wwg_name_wwg_menu_notifications|Notification Settings
+;
+2114088004||panel_wwg_menu_developer|Developer
+2114088005||preset_Mods_wwg_name_wwg_menu_developer|Developer Options
+;
+;Panels
+2114088006||panel_wwg_menu_generic|Generic NPC's (Betting)
+2114088007||preset_Mods_wwg_name_wwg_menu_generic|Generic NPC's Settings
+;
+2114088008||panel_wwg_menu_quests|Notable NPC's (Quests)
+;
+2114088009||panel_wwg_menu_questsettings|Global Settings
+2114088010||preset_Mods_wwg_name_wwg_menu_quests_wwg_menu_questsettings|Notable NPC's Settings
+;
+2114088011||panel_wwg_menu_Individual|Individual Settings
+;
+2114088012||panel_wwg_menu_base|Base Game
+2114088013||preset_Mods_wwg_name_wwg_menu_quests_wwg_menu_individual_wwg_menu_base|Base Game Menu
+;
+2114088014||panel_wwg_menu_dlc1|Hearts of Stone
+2114088015||preset_Mods_wwg_name_wwg_menu_quests_wwg_menu_individual_wwg_menu_dlc1|Notable NPC's (Hearts of Stone)
+;
+2114088016||panel_wwg_menu_dlc2|Blood and Wine
+2114088017||preset_Mods_wwg_name_wwg_menu_quests_wwg_menu_individual_wwg_menu_dlc2|Notable NPC's (Blood and Wine)
+;
+2114088018||panel_wwg_menu_pi|Playing Innkeepers
+2114088019||preset_Mods_wwg_name_wwg_menu_quests_wwg_menu_individual_wwg_menu_base_wwg_menu_pi|Notable NPC's (Playing Innkeepers)
+;
+2114088020||panel_wwg_menu_vp|Velen Players
+2114088021||preset_Mods_wwg_name_wwg_menu_quests_wwg_menu_individual_wwg_menu_base_wwg_menu_vp|Notable NPC's (Velen Players)
+;
+2114088022||panel_wwg_menu_bcp|Big City Players
+2114088023||preset_Mods_wwg_name_wwg_menu_quests_wwg_menu_individual_wwg_menu_base_wwg_menu_bcp|Notable NPC's (Big City Players)
+;
+2114088024||panel_wwg_menu_op|Old Pals
+2114088025||preset_Mods_wwg_name_wwg_menu_quests_wwg_menu_individual_wwg_menu_base_wwg_menu_op|Notable NPC's (Old Pals)
+;
+2114088026||panel_wwg_menu_ss|Skellige Style
+2114088027||preset_Mods_wwg_name_wwg_menu_quests_wwg_menu_individual_wwg_menu_base_wwg_menu_ss|Notable NPC's (Skellige Style)
+;
+2114088028||panel_wwg_menu_hs|High Stakes
+2114088029||preset_Mods_wwg_name_wwg_menu_quests_wwg_menu_individual_wwg_menu_base_wwg_menu_hs|Notable NPC's (High Stakes)
+;
+2114088030||panel_wwg_menu_mi|Miscellaneous
+2114088031||preset_Mods_wwg_name_wwg_menu_quests_wwg_menu_individual_wwg_menu_base_wwg_menu_mi|Notable NPC's (Miscellaneous)
+;
+;Presets - (100 - 104)
+2114088100||preset_value_wwg_low|Low
+2114088101||preset_value_wwg_med|Medium
+2114088102||preset_value_wwg_high|High
+2114088103||preset_value_wwg_stup|Stupid
+2114088104||preset_value_wwg_defa|Default
+;
+;options - Quest NPC's Settings - (110 - 113)
+2114088110||option_wwg_toggle_enabled_dn|Enabled: (Enable / Disable All Quest NPC's Features)
+2114088111||option_wwg_slider_globalg_dn|Bonus Gold Reward: (Set to '0' to use individual settings)
+2114088112||option_wwg_slider_globale_dn|Bonus Exp. Points: (Set to '0' to use individual settings)
+2114088113||option_wwg_slider_globals_dn|Skill Points To Award: (Set to '0' to use individual settings)
+;
+;options - Generic NPC's - (120 - 123)
+2114088120||option_wwg_enab_dn|Enabled: (Enable / Disable All Betting Features)
+2114088121||option_wwg_gold_dn|Maximum Bet:
+2114088122||option_wwg_expe_dn|Bonus Exp. Points:
+2114088123||option_wwg_skpo_dn|Skill Points To Award:
+;
+;options - Notification Settings - (130 - 131)
+2114088130||option_wwg_enableswitch_gno_dn|Show Bonus Gold Notifications:
+2114088131||option_wwg_enableswitch_eno_dn|Show Bonus Exp. Notifications:
+;
+;options - Debugging Settings - (140 - 141)
+2114088140||option_wwg_toggle_debug_ext_dn|External Debugging Hud Display:
+2114088141||option_wwg_toggle_debug_int_dn|Internal Debugging Hud Display:
+;
+;options - Big City Players - (200 - 211)
+2114088200||option_wwg_cg_bcp_vimme_dn_g|Vimme Vivaldi - Bonus Gold Reward:
+2114088201||option_wwg_cg_bcp_vimme_dn_e|Vimme Vivaldi - Bonus Experience Points:
+2114088202||option_wwg_cg_bcp_vimme_dn_s|Vimme Vivaldi - Skill Points To Award:
+2114088203||option_wwg_cg_bcp_dijkstra_dn_g|Sigi Reuven - Bonus Gold Reward:
+2114088204||option_wwg_cg_bcp_dijkstra_dn_e|Sigi Reuven - Bonus Experience Points:
+2114088205||option_wwg_cg_bcp_dijkstra_dn_s|Sigi Reuven - Skill Points To Award:
+2114088206||option_wwg_cg_bcp_marquise_dn_g|Marquise Serenity - Bonus Gold Reward:
+2114088207||option_wwg_cg_bcp_marquise_dn_e|Marquise Serenity - Bonus Experience Points:
+2114088208||option_wwg_cg_bcp_marquise_dn_s|Marquise Serenity - Skill Points To Award:
+2114088209||option_wwg_cg_bcp_scoiatael_dn_g|Scoia'tael Merchant - Bonus Gold Reward:
+2114088210||option_wwg_cg_bcp_scoiatael_dn_e|Scoia'tael Merchant - Bonus Experience Points:
+2114088211||option_wwg_cg_bcp_scoiatael_dn_s|Scoia'tael Merchant - Skill Points To Award:
+;
+;options - Velen Players - (250 - 261)
+2114088250||option_wwg_cg_vp_baron_dn_g|Bloody Baron - Bonus Gold Reward:
+2114088251||option_wwg_cg_vp_baron_dn_e|Bloody Baron - Bonus Experience Points:
+2114088252||option_wwg_cg_vp_baron_dn_s|Bloody Baron - Skill Points To Award:
+2114088253||option_wwg_cg_vp_boatwright_dn_g|Boatwright - Bonus Gold Reward:
+2114088254||option_wwg_cg_vp_boatwright_dn_e|Boatwright - Bonus Experience Points:
+2114088255||option_wwg_cg_vp_boatwright_dn_s|Boatwright - Skill Points To Award:
+2114088256||option_wwg_cg_vp_soothsayer_dn_g|Soothsayer - Bonus Gold Reward:
+2114088257||option_wwg_cg_vp_soothsayer_dn_e|Soothsayer - Bonus Experience Points:
+2114088258||option_wwg_cg_vp_soothsayer_dn_s|Soothsayer - Skill Points To Award:
+2114088259||option_wwg_cg_vp_haddyprodigy_dn_g|Haddy - Bonus Gold Reward:
+2114088260||option_wwg_cg_vp_haddyprodigy_dn_e|Haddy - Bonus Experience Points:
+2114088261||option_wwg_cg_vp_haddyprodigy_dn_s|Haddy - Skill Points To Award:
+;
+;options - Old Pals - (300 - 311)
+2114088300||option_wwg_cg_op_roche_dn_g|Vernon Roche - Bonus Gold Reward:
+2114088301||option_wwg_cg_op_roche_dn_e|Vernon Roche - Bonus Experience Points:
+2114088302||option_wwg_cg_op_roche_dn_s|Vernon Roche - Skill Points To Award:
+2114088303||option_wwg_cg_op_thaler_dn_g|Thaler - Bonus Gold Reward:
+2114088304||option_wwg_cg_op_thaler_dn_e|Thaler - Bonus Experience Points:
+2114088305||option_wwg_cg_op_thaler_dn_s|Thaler - Skill Points To Award:
+2114088306||option_wwg_cg_op_lambert_dn_g|Lambert - Bonus Gold Reward:
+2114088307||option_wwg_cg_op_lambert_dn_e|Lambert - Bonus Experience Points:
+2114088308||option_wwg_cg_op_lambert_dn_s|Lambert - Skill Points To Award:
+2114088309||option_wwg_cg_op_zoltan_dn_g|Zoltan - Bonus Gold Reward:
+2114088310||option_wwg_cg_op_zoltan_dn_e|Zoltan - Bonus Experience Points:
+2114088311||option_wwg_cg_op_zoltan_dn_s|Zoltan - Skill Points To Award:
+;
+;options - Playing Innkeepers - (350 - 358)
+2114088350||option_wwg_cg_pi_stjepan_dn_g|Stejpan - Bonus Gold Reward:
+2114088351||option_wwg_cg_pi_stjepan_dn_e|Stejpan - Bonus Experience Points:
+2114088352||option_wwg_cg_pi_stjepan_dn_s|Stejpan - Skill Points To Award:
+2114088353||option_wwg_cg_pi_olivier_dn_g|Olivier - Bonus Gold Reward:
+2114088354||option_wwg_cg_pi_olivier_dn_e|Olivier - Bonus Experience Points:
+2114088355||option_wwg_cg_pi_olivier_dn_s|Olivier - Skill Points To Award:
+2114088356||option_wwg_cg_pi_innkeep_dn_g|Innkeep (Inn at the Crossroads) - Bonus Gold Reward:
+2114088357||option_wwg_cg_pi_innkeep_dn_e|Innkeep (Inn at the Crossroads) - Bonus Experience Points:
+2114088358||option_wwg_cg_pi_innkeep_dn_s|Innkeep (Inn at the Crossroads) - Skill Points To Award:
+;
+;options - Skellige Style - (400 - 414)
+2114088400||option_wwg_cg_ss_Ermion_dn_g|Ermion - Bonus Gold Reward:
+2114088401||option_wwg_cg_ss_Ermion_dn_e|Ermion - Bonus Experience Points:
+2114088402||option_wwg_cg_ss_Ermion_dn_s|Ermion - Skill Points To Award:
+2114088403||option_wwg_cg_ss_Crach_dn_g|Crach an Craite - Bonus Gold Reward:
+2114088404||option_wwg_cg_ss_Crach_dn_e|Crach an Craite - Bonus Experience Points:
+2114088405||option_wwg_cg_ss_Crach_dn_s|Crach an Craite - Skill Points To Award:
+2114088406||option_wwg_cg_ss_Gremist_dn_g|Gremist - Bonus Gold Reward:
+2114088407||option_wwg_cg_ss_Gremist_dn_e|Gremist - Bonus Experience Points:
+2114088408||option_wwg_cg_ss_Gremist_dn_s|Gremist - Skill Points To Award:
+2114088409||option_wwg_cg_ss_Sjusta_dn_g|Sjusta - Bonus Gold Reward:
+2114088410||option_wwg_cg_ss_Sjusta_dn_e|Sjusta - Bonus Experience Points:
+2114088411||option_wwg_cg_ss_Sjusta_dn_s|Sjusta - Skill Points To Award:
+2114088412||option_wwg_cg_ss_Lugos_dn_g|Madman Lugos - Bonus Gold Reward:
+2114088413||option_wwg_cg_ss_Lugos_dn_e|Madman Lugos - Bonus Experience Points:
+2114088414||option_wwg_cg_ss_Lugos_dn_s|Madman Lugos - Skill Points To Award:
+;
+;options - High Stakes - (450 - 461)
+2114088450||option_wwg_cg_hs_Bernard_dn_g|Bernard Tulle - Bonus Gold Reward:
+2114088451||option_wwg_cg_hs_Bernard_dn_e|Bernard Tulle - Bonus Experience Points:
+2114088452||option_wwg_cg_hs_Bernard_dn_s|Bernard Tulle - Skill Points To Award:
+2114088453||option_wwg_cg_hs_Sasha_dn_g|Sasha - Bonus Gold Reward:
+2114088454||option_wwg_cg_hs_Sasha_dn_e|Sasha - Bonus Experience Points:
+2114088455||option_wwg_cg_hs_Sasha_dn_s|Sasha - Skill Points To Award:
+2114088456||option_wwg_cg_hs_Finneas_dn_g|Finneas - Bonus Gold Reward:
+2114088457||option_wwg_cg_hs_Finneas_dn_e|Finneas - Bonus Experience Points:
+2114088458||option_wwg_cg_hs_Finneas_dn_s|Finneas - Skill Points To Award:
+2114088459||option_wwg_cg_hs_Tybalt_dn_g|Count Tybalt - Bonus Gold Reward:
+2114088460||option_wwg_cg_hs_Tybalt_dn_e|Count Tybalt - Bonus Experience Points:
+2114088461||option_wwg_cg_hs_Tybalt_dn_s|Count Tybalt - Skill Points To Award:
+;
+;options - Miscellaneous - (500 - 505)
+2114088500||option_wwg_cg_mi_party_dn_g|A Matter of Life and Death - Bonus Gold Reward:
+2114088501||option_wwg_cg_mi_party_dn_e|A Matter of Life and Death - Bonus Experience Points:
+2114088502||option_wwg_cg_mi_party_dn_s|A Matter of Life and Death - Skill Points To Award:
+2114088503||option_wwg_cg_mi_tutorial_dn_g|Aldert Geert (Tutorial) - Bonus Gold Reward:
+2114088504||option_wwg_cg_mi_tutorial_dn_e|Aldert Geert (Tutorial) - Bonus Experience Points:
+2114088505||option_wwg_cg_mi_tutorial_dn_s|Aldert Geert (Tutorial) - Skill Points To Award:
+;
+;options - Hearts of Stone - (550 - 561)
+2114088550||option_wwg_cg_hos_shani_dn_g|Shani - Bonus Gold Reward:
+2114088551||option_wwg_cg_hos_shani_dn_e|Shani - Bonus Experience Points:
+2114088552||option_wwg_cg_hos_shani_dn_s|Shani - Skill Points To Award:
+2114088553||option_wwg_cg_hos_olgierd_dn_g|Olgierd von Everec - Bonus Gold Reward:
+2114088554||option_wwg_cg_hos_olgierd_dn_e|Olgierd von Everec - Bonus Experience Points:
+2114088555||option_wwg_cg_hos_olgierd_dn_s|Olgierd von Everec - Skill Points To Award:
+2114088556||option_wwg_cg_hos_hilbert_dn_g|Robert Hilbert - Bonus Gold Reward:
+2114088557||option_wwg_cg_hos_hilbert_dn_e|Robert Hilbert - Bonus Experience Points:
+2114088558||option_wwg_cg_hos_hilbert_dn_s|Robert Hilbert - Skill Points To Award:
+2114088559||option_wwg_cg_hos_wedding_dn_g|Halflings (Dead Man's Party) - Bonus Gold Reward:
+2114088560||option_wwg_cg_hos_wedding_dn_e|Halflings (Dead Man's Party) - Bonus Experience Points:
+2114088561||option_wwg_cg_hos_wedding_dn_s|Halflings (Dead Man's Party) - Skill Points To Award:
+;
+;options - Blood and wine - (600 - 614)
+2114088600||option_wwg_cg_baw_hamal_dn_g|Hamal ogn Dangbahli - Bonus Gold Reward:
+2114088601||option_wwg_cg_baw_hamal_dn_e|Hamal ogn Dangbahli - Bonus Experience Points:
+2114088602||option_wwg_cg_baw_hamal_dn_s|Hamal ogn Dangbahli - Skill Points To Award:
+2114088603||option_wwg_cg_baw_Tourn_dn_g|Gwent Tournament - Bonus Gold Reward:
+2114088604||option_wwg_cg_baw_Tourn_dn_e|Gwent Tournament - Bonus Experience Points:
+2114088605||option_wwg_cg_baw_Tourn_dn_s|Gwent Tournament - Skill Points To Award:
+2114088606||option_wwg_cg_baw_yaki_dn_g|Yaki Rafiberg - Bonus Gold Reward:
+2114088607||option_wwg_cg_baw_yaki_dn_e|Yaki Rafiberg - Bonus Experience Points:
+2114088608||option_wwg_cg_baw_yaki_dn_s|Yaki Rafiberg - Skill Points To Award:
+2114088609||option_wwg_cg_baw_Trentin_dn_g|Trentin - Bonus Gold Reward:
+2114088610||option_wwg_cg_baw_Trentin_dn_e|Trentin - Bonus Experience Points:
+2114088611||option_wwg_cg_baw_Trentin_dn_s|Trentin - Skill Points To Award:
+2114088612||option_wwg_cg_baw_Customer_dn_g|Cianfanelli Bank Customer - Bonus Gold Reward:
+2114088613||option_wwg_cg_baw_Customer_dn_e|Cianfanelli Bank Customer - Bonus Experience Points:
+2114088614||option_wwg_cg_baw_Customer_dn_s|Cianfanelli Bank Customer - Skill Points To Award:
