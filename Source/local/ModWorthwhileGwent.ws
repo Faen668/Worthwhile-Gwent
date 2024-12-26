@@ -5,6 +5,67 @@
 //-- Functions --------------------------------------
 //---------------------------------------------------
 
+exec function wwg_test() 
+{
+	var Idx: int;
+	
+	LogChannel('WWG', "");
+	LogChannel('WWG', "Weight = 0.2");
+	for ( Idx = 0; Idx < 5; Idx += 1 ) 
+	{
+		LogChannel('WWG', IntToString(WWG_GetWeightedGoldValue(1, 100, 0.2) ));
+	}
+	
+	LogChannel('WWG', "");
+	LogChannel('WWG', "Weight = 0.5");
+	for ( Idx = 0; Idx < 5; Idx += 1 ) 
+	{
+		LogChannel('WWG', IntToString(WWG_GetWeightedGoldValue(1, 100, 0.5) ));
+	}
+	
+	LogChannel('WWG', "");
+	LogChannel('WWG', "Weight = 0.8");
+	for ( Idx = 0; Idx < 5; Idx += 1 ) 
+	{
+		LogChannel('WWG', IntToString(WWG_GetWeightedGoldValue(1, 100, 0.8) ));
+	}
+
+	LogChannel('WWG', "");
+	LogChannel('WWG', "Weight = 1.0");
+	for ( Idx = 0; Idx < 5; Idx += 1 ) 
+	{
+		LogChannel('WWG', IntToString(WWG_GetWeightedGoldValue(1, 100, 1.0) ));
+	}
+}
+
+//---------------------------------------------------
+//-- Functions --------------------------------------
+//---------------------------------------------------
+
+function WWG_GetWeightedGoldValue(min_gold: int, gold_value: int, weight_value: float): int 
+{
+	var max_bet_weighted : float;
+	
+    if (weight_value < 0.1) 
+	{
+		weight_value = 0.1;
+	}
+    else if (weight_value > 1.0) 
+	{
+        weight_value = 1.0;
+	}
+	
+    // Calculate the weighted max bet
+    max_bet_weighted = min_gold + (gold_value - min_gold) * weight_value;
+
+    // Return the result as an integer with a random fluctuation of ±10%.
+    return Min(gold_value,(int)(max_bet_weighted * RandRangeF(1.1, 0.9)));
+}
+
+//---------------------------------------------------
+//-- Functions --------------------------------------
+//---------------------------------------------------
+
 function WWG_IsGenericNPCEnabled(): bool 
 {
 	return (bool) theGame.GetInGameConfigWrapper().GetVarValue('WWG_GenericNPCSettings', 'wwg_Toggle_Enabled1');
@@ -27,12 +88,15 @@ function WWG_GetMaxBetValue(rewardName : name, isGwentMode : bool): int
 {
 	var rewrd: SReward;
 	
+	var gold_value : int = (int) theGame.GetInGameConfigWrapper().GetVarValue('WWG_GenericNPCSettings', 'wwg_Gold_Value');
+	var weight_value : float = (float) theGame.GetInGameConfigWrapper().GetVarValue('WWG_GenericNPCSettings', 'wwg_Weight_Value');
+	
 	if ( !isGwentMode || !WWG_IsGenericNPCEnabled() ) 
 	{
 		theGame.GetReward(rewardName, rewrd );
 		return rewrd.gold;
 	}
-	return (int) theGame.GetInGameConfigWrapper().GetVarValue('WWG_GenericNPCSettings', 'wwg_Gold_Value');
+	return WWG_GetWeightedGoldValue(1, gold_value, weight_value);
 }
 
 //---------------------------------------------------

@@ -6,24 +6,28 @@
 			<Preset id="0" displayName="wwg_low">
 				<Entry varId="wwg_Toggle_Enabled1" 	value="true"/>
 				<Entry varId="wwg_Gold_Value" 		value="20.0"/>
+				<Entry varId="wwg_Weight_Value" 	value="0.2"/>
 				<Entry varId="wwg_Expe_Value" 		value="60.0"/>
 				<Entry varId="wwg_Skpo_Value" 		value="0.0"/>
 			</Preset>
 			<Preset id="1" displayName="wwg_med">
 				<Entry varId="wwg_Toggle_Enabled1" 	value="true"/>
 				<Entry varId="wwg_Gold_Value" 		value="250.0"/>
+				<Entry varId="wwg_Weight_Value" 	value="0.5"/>
 				<Entry varId="wwg_Expe_Value" 		value="120.0"/>
 				<Entry varId="wwg_Skpo_Value" 		value="1.0"/>
 			</Preset>
 			<Preset id="2" displayName="wwg_high">
 				<Entry varId="wwg_Toggle_Enabled1" 	value="true"/>
 				<Entry varId="wwg_Gold_Value" 		value="500.0"/>
+				<Entry varId="wwg_Weight_Value" 	value="0.8"/>
 				<Entry varId="wwg_Expe_Value" 		value="240.0"/>
 				<Entry varId="wwg_Skpo_Value" 		value="2.0"/>
 			</Preset>
 			<Preset id="3" displayName="wwg_stup">
 				<Entry varId="wwg_Toggle_Enabled1" 	value="true"/>
 				<Entry varId="wwg_Gold_Value" 		value="1000.0"/>
+				<Entry varId="wwg_Weight_Value" 	value="1.0"/>
 				<Entry varId="wwg_Expe_Value" 		value="500.0"/>
 				<Entry varId="wwg_Skpo_Value" 		value="3.0"/>
 			</Preset>
@@ -35,6 +39,8 @@
 			
 			<Var id="Separator" 			displayName="" 				displayType="SUBTLE_SEPARATOR"/>
 			<Var id="wwg_Gold_Value" 		displayName="wwg_gold_dn" 	displayType="SLIDER;1;1000;999"/>
+			<Var id="wwg_Weight_Value" 		displayName="wwg_weight_dn" displayType="SLIDER;0.1;1.0;9"/>
+			<Var id="Separator" 			displayName="" 				displayType="SUBTLE_SEPARATOR"/>
 			<Var id="wwg_Expe_Value" 		displayName="wwg_expe_dn" 	displayType="SLIDER;0;1000;1000"/>
 			<Var id="wwg_Skpo_Value" 		displayName="wwg_skpo_dn" 	displayType="SLIDER;0;5;5"/>
 		</VisibleVars>

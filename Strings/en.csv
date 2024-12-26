@@ -8,6 +8,7 @@
 ;
 ;General
 2114088000||panel_Mods|Mods
+2114088616||panel_FaenMods|Faen's Mods
 2114088001||panel_wwg_name|Worthwhile Gwent
 ;
 ;Panels
@@ -207,3 +208,7 @@
 2114088612||option_wwg_cg_baw_Customer_dn_g|Cianfanelli Bank Customer - Bonus Gold Reward:
 2114088613||option_wwg_cg_baw_Customer_dn_e|Cianfanelli Bank Customer - Bonus Experience Points:
 2114088614||option_wwg_cg_baw_Customer_dn_s|Cianfanelli Bank Customer - Skill Points To Award:
+;
+2114088615||option_wwg_weight_dn|Applied Weight:
+;
+;Next ID 2114088617
